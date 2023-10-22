@@ -23,4 +23,6 @@ const listItems = images
 			</li>`
 	)
 	.join("");
+list.style.display = "flex";
+list.style.listStyle = "none";
 list.insertAdjacentHTML("beforeend", listItems);

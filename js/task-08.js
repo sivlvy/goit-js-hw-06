@@ -14,7 +14,7 @@ function handleClick(event) {
 			email: loginInput.value,
 			password: passInput.value,
 		};
+		form.reset();
 		console.log(formData);
 	}
-	form.reset();
 }
